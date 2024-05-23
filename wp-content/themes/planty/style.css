@@ -1,0 +1,36 @@
+/**
+ * Theme Name: planty
+ * Template: intentionally-blank
+ */
+body{margin: 0 }
+
+.nousrencontrerbouton{
+    margin-left: 72px;
+}
+
+.nousrencontrerbouton p {
+    text-align: center;
+}
+
+#boutonheadercom{
+    width: 236px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:768px){
+    #boutonheadercom{
+        width: 100%;
+    }  
+}
+
+@media(max-width:767px){
+    #FormNousRencontrer input , #FormNousRencontrer textarea{
+    width:100%;
+}
+.nousrencontrerbouton  {
+    margin-left: 0;
+}
+}
